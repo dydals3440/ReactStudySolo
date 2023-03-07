@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  background-color: yellow;
+  height: 100%;
+  width: 100%;
+}
+
+.pointer {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border-radius: 50%;
+}
