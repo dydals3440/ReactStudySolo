@@ -1,13 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import AppMentor from "./AppMentor/AppMentors";
-import AppTheme from "./AppTheme/AppTheme";
+import Products from "./AppProduct/Products";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <AppMentor />
+    <Products />
   </React.StrictMode>
 );
 
