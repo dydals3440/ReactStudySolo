@@ -4,6 +4,7 @@ import NotFound from "./router/pages/NotFound";
 import Videos from "./router/pages/Videos";
 import Home from "./router/pages/Home";
 import Root from "./router/pages/Root";
+import VideoDetail from "./router/pages/VideoDetail";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Home /> },
       { path: "videos", element: <Videos /> },
+      { path: "videos/:videoId", element: <VideoDetail /> },
     ],
   },
 ]);
