@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Products from "../components/products";
+import Products from "./Products";
 
 export default function MainProducts() {
   const [showLeftProducts, setShowLeftProducts] = useState(true);
